@@ -1,0 +1,54 @@
+@height: 3.1rem;
+.admin__menu {
+    .item-developerhub.parent.level-0 > a {
+        &:before {
+            background-image: url('DeveloperHub_AdminPreview::images/devhub-logo.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            content: '';
+            height: 7.0rem;
+        }
+    }
+
+    .item-developerhub.parent.level-0 > a:hover::before {
+        background-image: url('DeveloperHub_AdminPreview::images/devhub-logo.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: '';
+        height: 7.0rem;
+    }
+
+    .item-developerhub.parent.level-0._active._show > a {
+        &:before {
+            background-image: url('DeveloperHub_AdminPreview::images/devhub-logo.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            content: '';
+            height: 7.0rem;
+        }
+    }
+}
+
+.config-nav-block.developerhub {
+    ._collapsible {
+        &:before {
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            background-size: contain;
+            content: '';
+            display: inline-block;
+            height: 30px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+    }
+}
+
+.developerhub {
+    .admin__page-nav-title {
+        padding: 10px;
+    }
+}
